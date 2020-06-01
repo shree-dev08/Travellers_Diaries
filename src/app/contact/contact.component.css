@@ -1,0 +1,88 @@
+/* .ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+ /* }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+ /* } */
+
+ div.masthead {
+   position: relative;
+   background: url(../../assets/images/bg_img3.jpeg) no-repeat center center;
+   background-size: cover;
+   /* padding-top: 8rem;
+   padding-bottom: 8rem; */
+   z-index: 2;
+   min-height: 677px;
+}
+.overlay {
+   position: absolute;
+   /* background-color: #212529; */
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   opacity: .3;
+   background: rgba(0, 0, 0, 0.3);
+}
+.main-heading h1{
+   opacity: 1;
+}
+.main-heading h1{
+   font-size: 3rem;
+   color: #fff;
+   line-height: 1;
+   font-family: "Work Sans", sans-serif;
+   font-weight: 900;
+}
+
+.subtitle{
+   color: #1976d2;
+   text-transform: uppercase;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.msg{
+   color: #000000;
+   text-transform: uppercase;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.heading{
+   position: relative;
+}
+
+
+body {
+   overflow-x: hidden;
+ }
+ 
+ /* .contact-cov{
+   background-image: linear-gradient(45deg,skyblue,transparent);
+   background-size: cover;
+   } */
+ .contact-cover{
+   background-image: linear-gradient(180deg,#1976d2,transparent);
+   background-size: cover;
+    border-radius: 5px;
+    border:  #ADD8E6 solid 1px ;
+ }
+
+ button.submit-btn{
+    background-color: #1976d2;
+ }
+
+ @media (min-width: 768px){
+   div.masthead {
+       padding-top: 12rem;
+       padding-bottom: 12rem;
+   }
+   }
+ @media (max-width: 768px){
+   div.masthead {
+          padding-top: 12rem;
+          padding-bottom: 12rem;
+   }
+   }

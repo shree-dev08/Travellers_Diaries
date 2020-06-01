@@ -1,0 +1,39 @@
+.nav-bg{
+    background-color: #1976d2;
+}
+
+
+/* .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar div a {float: left;}
+    div#page-content-wrapper  {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar div a {
+      text-align: center;
+      float: none;
+    }
+  } */
+  

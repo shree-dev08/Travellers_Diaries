@@ -1,0 +1,20 @@
+<body>
+<div class="container">
+    <div class="row">       
+            <div class="col-md-8">
+                <br>
+                <div class="card mb-4">
+                    <img class="card-img-top" [src]="upcomingTrip.imagePath" alt="{{upcomingTrip.title}}">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-body">
+                    <h2 class="card-title text-capitalize font-italic">{{ upcomingTrip.title }}</h2>
+                    <h5 class="text-justify font-weight-bold">Trip Budget(Approx)</h5><p class="font-italic">${{ upcomingTrip.budget }}</p>
+                    <p class="card-text">{{ upcomingTrip.description }}</p>
+                    <button (click)="goBack()" class="btn btn-primary">Go Back</button>
+                </div>
+            </div>
+    </div>
+</div>
+</body>

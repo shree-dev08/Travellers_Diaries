@@ -1,0 +1,38 @@
+<body>
+    <div class="masthead text-white justify-content-center text-center">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 mx-auto main-heading">
+              <h1 class="mb-3">Blogs</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus 
+                  officia iste. Dolores.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-10">
+            <div class="heading mb-5">
+            <!-- <span class="subtitle">Join and Trip with us!</span> -->
+            <h2 class="mt-4 text-capitalize font-italic">Take A Look At our Blogs!</h2>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card mb-4" *ngFor="let blog of blogs">
+                    <img class="card-img-top" [src]="blog.imagePath" alt="{{blog.name}}">
+                    <div class="card-body">
+                    <h2 class="card-title">{{ blog.name }}</h2>
+                    <!-- <p class="card-text">{{ blog.description }}</p> -->
+                    <a routerLink="/detail/{{blog.id}}" class="btn btn-primary">Know More →</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+    </div>
+</body>

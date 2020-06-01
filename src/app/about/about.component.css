@@ -1,0 +1,131 @@
+body {
+    overflow-x: hidden;
+  }
+div.masthead {
+    position: relative;
+    background: url(/assets/images/bg_img2.jpg) no-repeat center center;
+    background-size: cover;
+    /* padding-top: 8rem;
+    padding-bottom: 8rem; */
+    z-index: 2;
+    min-height: 677px;
+}
+.overlay {
+    position: absolute;
+    /* background-color: #212529; */
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3;
+    background: rgba(0, 0, 0, 0.3);
+}
+.main-heading h1{
+    opacity: 1;
+}
+.main-heading h1{
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 900;
+}
+
+.subtitle{
+    color: #1976d2;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.heading{
+    position: relative;
+}
+
+.post-entry .post-entry-contents{
+    background: #fff;
+    padding: 20px;
+}
+
+.blog-img{
+    min-height: 250px !important;
+}
+
+.social-icons a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .person .caption {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    }
+
+ .person h2 {
+        font-size: 18px;
+    }
+
+ .bg-image {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+ .bg-image.overlay-2 {
+        position: relative;
+    }
+
+ .bg-image > .container {
+        position: relative;
+        z-index: 1;
+    }
+ .bg-image.overlay-2:after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        width: 100%;
+        background: rgba(239, 186, 108, 0.4);
+    }
+
+.contact-section {
+    padding: 7rem 0;
+}
+
+div.btn-sec{
+    padding-bottom: 30px;
+}
+
+@media (min-width: 768px){
+div.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+}
+
+@media (max-width: 991.98px){
+    .contact-section {
+        padding: 3rem 0;
+    }
+}
+
+@media (min-width: 768px){
+    .contact-section {
+        padding: 5em 0;
+    }
+}
+
+@media (max-width: 768px){
+    div.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}

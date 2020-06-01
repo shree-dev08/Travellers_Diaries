@@ -1,0 +1,50 @@
+body {
+    overflow-x: hidden;
+  }
+div.masthead {
+    position: relative;
+    background: url(../../../assets/images/bg_img4.jpg) no-repeat center center;
+    background-size: cover;
+    /* padding-top: 8rem;
+    padding-bottom: 8rem; */
+    z-index: 2;
+    min-height: 677px;
+}
+.overlay {
+    position: absolute;
+    /* background-color: #212529; */
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3;
+    background: rgba(0, 0, 0, 0.3);
+}
+.main-heading h1{
+    opacity: 1;
+}
+.main-heading h1{
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 900;
+}
+
+.heading{
+    position: relative;
+ }
+ 
+@media (min-width: 768px){
+    div.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
+
+@media (max-width: 768px){
+    div.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}

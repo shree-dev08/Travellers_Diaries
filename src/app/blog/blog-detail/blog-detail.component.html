@@ -1,0 +1,33 @@
+<!-- <div>
+    <h2>{{blog.name | uppercase}} Details</h2>
+    <div>
+      <h3>{{ blog.description }}</h3>
+    </div>
+  </div> -->
+
+  <!-- <div *ngIf="blog">
+    <h2>{{blog.name | uppercase}} Details</h2>
+    <div>
+    </div>
+    <button (click)="goBack()" class="btn btn-primary">go back</button>
+  </div> -->
+
+<body>
+  <div class="container" *ngIf="blog">
+    <div class="row">
+        <div class="col-md-8">
+            <br>
+            <div class="card mb-4">
+                <img class="card-img-top" [src]="blog.imagePath" alt="{{blog.name}}">
+                <div class="card-body">
+                  <h2 class="card-title">{{ blog.name }}</h2>
+                  <p class="card-text">{{ blog.description }}</p>
+                  <button (click)="goBack()" class="btn btn-primary">Go Back</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+</div>
+</body>

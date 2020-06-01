@@ -1,0 +1,38 @@
+<body>
+    <div class="d-flex" id="wrapper">
+        <div class="bg-light border-right" id="sidebar-wrapper">
+            <div class="list-group list-group-flush">
+                <app-sidebar></app-sidebar>
+            </div>
+        </div>
+
+        <div class="home-right-cont" id="page-content-wrapper">
+
+            <div class="container-fluid">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-md-7">
+                            <div class="heading mb-5">
+                                <span class="subtitle">Journey</span>
+                                <h2 class="mt-4 text-capitalize font-italic">Your Journey Starts Here</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4" *ngFor="let trip of trips">
+                            <a routerLink="/trip-detail/{{trip.id}}">
+                                <div class="listing-item">
+                                        <div class="listing-image">
+                                            <img [src]="trip.imagePath" alt="{{ trip.title }}" class="img-fluid">
+                                        </div>
+                                        <div class="listing-item-content">
+                                            <p class="px-3 mb-3 category bg-primary">${{ trip.budget }}</p>
+                                            <h2 class="mb-1">{{ trip.title }}</h2>
+                                        </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
