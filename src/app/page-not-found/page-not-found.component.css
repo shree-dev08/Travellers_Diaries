@@ -3,7 +3,7 @@ body {
   }
 div.masthead {
     position: relative;
-    background: url(/assets/images/bg_img5.jpg) no-repeat center center;
+    background: url(../../assets/images/bg_img5.jpg) no-repeat center center;
     background-size: cover;
     /* padding-top: 8rem;
     padding-bottom: 8rem; */
