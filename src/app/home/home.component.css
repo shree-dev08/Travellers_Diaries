@@ -27,7 +27,7 @@
 
 .home-right-cont{
     /* background-image: linear-gradient(45deg,lightblue,transparent); */
-    background-image: url(/assets/images/bg_new_cover.jpg);
+    background-image: url(../../assets/images/bg_new_cover.jpg);
     background-size: cover;
 }
 
